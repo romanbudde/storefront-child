@@ -15,24 +15,7 @@ get_header();
 
 ?>
 
-    <h1>Nueva Homeee</h1>
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
-		<?php
-		if ( have_posts() ) :
-
-			get_template_part( 'loop' );
-
-		else :
-
-			get_template_part( 'content', 'none' );
-
-		endif;
-		?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
+<h1>Nueva Homeee</h1>
 
 <?php
 do_action( 'storefront_sidebar' );
