@@ -7,7 +7,34 @@ Author: Tu
 Author URI: http://loquesea.es
 Template: storefront
 */
-
 body {
   background-color: antiquewhite;
 }
+
+#lineaDivisora {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(113, 184, 68, 0.28);
+}
+
+#lineaDivisora .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 33.33%;
+}
+
+#lineaDivisora .container i {
+  color: #333;
+  font-size: 50px;
+}
+
+#lineaDivisora .container h4 {
+  color: #333;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */

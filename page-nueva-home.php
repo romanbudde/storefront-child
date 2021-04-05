@@ -15,9 +15,7 @@ get_header();
 
 ?>
 
-<h1>Nueva Homeee</h1>
 
 <?php
-do_action( 'storefront_sidebar' );
-// get_footer();
+    get_template_part('componentes/_linea-divisora');
 ?>
