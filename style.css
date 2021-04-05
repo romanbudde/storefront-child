@@ -10,3 +10,6 @@ Template: storefront
  
 /*----------------- Cambios a partir de aquí -------------------------------*/
 
+body {
+    background: red;
+}
